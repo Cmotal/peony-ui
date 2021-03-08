@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strict": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client"]
+  },
+  "include": [
+    "website/**/*.ts",
+    "website/*.ts",
+    "website/**/*.d.ts",
+    "website/**/*.tsx",
+    "website/**/*.vue",
+    "packages/*.ts",
+    "packages/**/*.ts",
+    "packages/components/**/*.ts",
+    "packages/components/**/src/*.vue",
+    "packages/components/**/src/*.ts",
+    "packages/styles/theme-chalk/index.scss"
+  ]
+}
